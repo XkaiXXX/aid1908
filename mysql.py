@@ -1,7 +1,4 @@
-"""
-mysql.py
-pymysql 数据库操作流程演示
-"""
+
 import  pymysql
 
 #连接数据库
@@ -19,8 +16,3 @@ cur=db.cursor()
 
 
 
-
-
-#关闭游标和数据库连接
-cur.close()
-db.close()
